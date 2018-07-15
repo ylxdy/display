@@ -3,7 +3,7 @@
 cd /home/log/cachelogbak/newlog/aliyun
 
 #du命令统计目录大小
-printf '大小\taliyun目录名称\n' > size123.log
+printf '大小\taliyun日志目录\n' > size123.log
 du -sh *| grep '2018[0-9]\{4\}' >> size123.log
 
 #find命令进入各子目录查找文件数量
