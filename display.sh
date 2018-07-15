@@ -19,4 +19,4 @@ done >> count123.log
 paste size123.log count123.log | tee display.log
 
 rm -f size123.log count123.log
-mv /home/log/cachelogbak/newlog/aliyun/display.log ./display.log
+mv /home/log/cachelogbak/newlog/aliyun/display.log /root/display.log
